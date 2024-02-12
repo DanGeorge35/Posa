@@ -1,0 +1,22 @@
+# Disable Directory Browsing
+Options All -Indexes
+
+errorDocument 400 /404.php
+errorDocument 401 /404.php
+errorDocument 404 /404.php
+errorDocument 500 /404.php
+
+<IfModule mod_headers.c>
+    Header set Strict-Transport-Security max-age=16070400;
+</IfModule>
+
+RewriteEngine On
+# Options -MultiViews
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+
+ #FallbackResource /404.php

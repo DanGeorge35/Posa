@@ -1,0 +1,158 @@
+× Make notifications into phone alerts. Especially for the admin.   Like ding song you have a deposit. Or check your uba for 5200.
+
+
+Add a referral system to allow superadmin monitor source of subscriptions.
+super admin should easily be able to change provider fees
+
+ 
+*create no staff availabe for no staff 
+
+
+
+
+
+
+
+
+
+
+
+
+NameVirtualHost *:80
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.posaccountant\.com$ [NC]
+RewriteRule ^(.*)$ http://posaccountant.com$1 [R=301,L]
+ServerName posaccountant.com
+ServerAlias www.posaccountant.com
+DocumentRoot /home/posaapp/public_html
+ErrorLog /var/log/ posaccountant.com_error_log
+CustomLog /var/log/ posaccountant.com_access_log combined
+DirectoryIndex index.html index.htm index.php index.php4 index.php5
+SetOutputFilter DEFLATE
+Options -Indexes +IncludesNOEXEC +SymLinksifOwnerMatch +ExecCGI
+allow from all
+AllowOverride All
+
+----------------------------------------------------
+To save the file press [ESCAPE] then :w [ENTER]
+to save and quit :wq [ENTER]
+to quit without saving :q! [ENTER]
+----------------------------------------------------
+
+dan_kenneth
+
+server1.posaccountant.com
+
+162.0.219.154
+
+Posaccountant
+d0QW4Nkq05TYRb73tw
+
+https://vpspanel.web-hosting.com/login.php
+User:Posaccountant
+Pass: 123456As
+
+mkdir -p /var/www/posaccountant.com/public_html
+sudo chown -R apache:apache /var/www/posaccountant.com/public_html
+
+/etc/named/posaccountant.com
+named-checkzone posaccountant.com /etc/named/posaccountant.com
+
+
+/var/www/posaccountant.com/public_html/index.html
+
+/etc/named.conf
+
+SSH LOGIN
+username :root
+password : d0QW4Nkq05TYRb73tw
+
+posaapp
+posaapp001
+
+
+SQL PASSWORD
+Posaccountant001?@
+
+CREATE USER 'app@posaccountant.com' IDENTIFIED BY  'Posaccountant001?@';
+GRANT ALL PRIVILEGES ON * . * TO 'app@posaccountant.com';
+FLUSH PRIVILEGES;
+
+
+
+
+
+Use yum install httpd php php-mysql perl mysql mysql-server or
+Apt-get install httpd php php-mysql perl mysql mysql-server
+
+
+ useradd john
+  mkdir /home/john/public_html
+
+
+
+/etc/named/posaccountant.com
+
+
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): Congratulations! Your installation                 of cPanel & WHM 11.92 is now complete. The next step is to configure your server                .
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): Before you configure your server, e                nsure that your firewall allows access on port 2087.
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): After ensuring that your firewall a                llows access on port 2087, you can configure your server.
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): 1. Open your preferred browser
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): 2. Navigate to the following url us                ing the address bar and enter this one-time autologin url:
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): After the login url expires you gen                erate a new one using the 'whmlogin' command or manually login at:
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): https://162.0.219.154:2087
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): Visit https://go.cpanel.net/whminit                 for more information about first-time configuration of your server.
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+[2021-02-14 18:57:39 +0000] [41108] ( INFO): Visit http://support.cpanel.net or                 https://go.cpanel.net/allfaq for additional support
+[2021-02-14 18:57:39 +0000] [41108] ( INFO):
+
+
+https://www.logaster.com/blog/creating-website-vps/#company4
+
+SETTING UP THE DNS
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/9434/32/using-default-nameservers-vs-hosting-nameservers/
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/9759/48/how-to-install-linux-apache-mysql-php-stack-lamp-on-centos-6/
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/9434/32/using-default-nameservers-vs-hosting-nameservers/
+
+
+root
+posa3tC954OWa4RlAS0
+
+
+admin@posaccountant.com
+ns1.posaccountant.com
+ns2.posaccountant.com
+
+poxxycountant
+Poxxycountant001?@
+app@posaccountant.com
+
+
+ Domain: posaccountant.com
+| Ip: 162.0.219.154 (n)
+| HasCgi: y
+| UserName: poxxycountant
+| PassWord: Poxxycountant001?@
+| CpanelMod: paper_lantern
+| HomeRoot: /home
+| Quota: unlimited
+| NameServer1: ns1.posaccountant.com
+| NameServer2: ns2.posaccountant.com
+| NameServer3: 
+| NameServer4: 
+| Contact Email: app@posaccountant.com
+| Package: default
+| Feature List: default
+| Language: en
