@@ -1,0 +1,30 @@
+{
+	
+	"default": {
+		"host": "ftp.posaccountant.com",		
+		"username": "posact",  // or null for anonymous login
+		"password": "tUg89rXgL93rV64ZeU",
+		"path": "/public_html/",
+		"upload_on_save": true,
+		"tls": false,
+		"passive": true,
+		"always_sync_local_permissions": true,
+		"download_on_open": true,
+		//"ignore": "\\.jpg|\\.jpeg|\\.bmp|\\.png|\\.zip|\\.mp4 ",
+
+	}
+
+	// ------------------------------------------------------------------------------------------------------------------------------------
+	// HELP / INFO moved to bottom
+	// Remove  to uncomment settings directive
+	// https://github.com/NoxArt/SublimeText2-FTPSync/
+	// For settings description see:
+	// https://github.com/NoxArt/SublimeText2-FTPSync/wiki/All-settings
+	// For more info see:
+	// https://github.com/NoxArt/SublimeText2-FTPSync/wiki/_pages
+	// Want to ask? Report a bug?
+	// Hit: https://github.com/NoxArt/SublimeText2-FTPSync/issues/new
+	// ** Commas **
+	// More info about Sublime Text 2 settings on http://www.sublimetext.com/docs/2/settings.html
+
+}
