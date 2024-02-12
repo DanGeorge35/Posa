@@ -1,0 +1,15 @@
+[01-Aug-2021 17:57:03 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'poxxycountant_posa.adverts' doesn't exist' in /home/poxxycountant/public_html/auth0posaset/adverts.php:32
+Stack trace:
+#0 /home/poxxycountant/public_html/auth0posaset/adverts.php(32): PDO->query('SELECT * FROM `...')
+#1 {main}
+  thrown in /home/poxxycountant/public_html/auth0posaset/adverts.php on line 32
+[01-Aug-2021 17:58:12 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'poxxycountant_posa.adverts' doesn't exist' in /home/poxxycountant/public_html/auth0posaset/adverts.php:32
+Stack trace:
+#0 /home/poxxycountant/public_html/auth0posaset/adverts.php(32): PDO->query('SELECT * FROM `...')
+#1 {main}
+  thrown in /home/poxxycountant/public_html/auth0posaset/adverts.php on line 32
+[01-Aug-2021 17:58:38 Africa/Lagos] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'poxxycountant_posa.adverts' doesn't exist' in /home/poxxycountant/public_html/auth0posaset/adverts.php:32
+Stack trace:
+#0 /home/poxxycountant/public_html/auth0posaset/adverts.php(32): PDO->query('SELECT * FROM `...')
+#1 {main}
+  thrown in /home/poxxycountant/public_html/auth0posaset/adverts.php on line 32
