@@ -25,7 +25,7 @@ define('SUPER_ADMIN_EMAIL', 'admin@posaccountant.com');   // it@example.com
 define('MAIL_SEND_SERVER', 'posaccountant.com');
 define('MAIL_FROM', 'no-reply@posaccountant.com');
 //----------------------------------------------------------------------------------------------------
-
+echo $_SERVER["HTTP_HOST"];
 if($_SERVER["HTTP_HOST"] =="localhost"){
 
   //---------------------------------------------------------------------------------- Configuration for: Database
