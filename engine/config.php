@@ -43,9 +43,9 @@ if($_SERVER["HTTP_HOST"] =="localhost"){
   /* This is the place where database credentials, database type etc is defined.*/
   define('DB_TYPE', 'mysql');
   define('DB_HOST', 'localhost');
-  define('DB_NAME', 'posact_poxxycountant');
-  define('DB_USER', 'posact_posa');
-  define('DB_PASS', 'poxxycountant_posa001?@');
+  define('DB_NAME', 'posaccountant_db');
+  define('DB_USER', 'posaccountant_usr');
+  define('DB_PASS', 'VHiSgNMLR8');
   define('DB_CHARSET', 'utf8');
   //------------------------------------------------------------------------------------------------------------
 }
