@@ -23,6 +23,8 @@ class Data {
 }
 
 
+require('engine/config.php'); 
+
   if(!empty($_GET['app_id'])){$app_id = $_GET['app_id'];
     $data = new Data();
             if($app_id !=='2021posa1234'){
@@ -47,7 +49,6 @@ class Data {
   }
 
 
- require('engine/config.php'); 
 
 // ---------------TEST----------------------------------------------------------------------------------------------------
     // $paystack_test_secret = "sk_test_1ce50295e90f704a86427b27eb07f8bb26e50b0b";
