@@ -35,8 +35,11 @@ class Data {
             }
   }else{
     $data = new Data();
+    $stmt = $db->query("SELECT * FROM posa_user");
+    $user = $stmt->fetch(PDO::FETCH_ASSOC); 
             header('Content-Type: application/json');        
             $data->status= "0";
+            $data->users = $user;
             $data->note= "Un-authorised Access";
             $result = json_encode($data);
             echo $result;
