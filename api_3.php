@@ -24,6 +24,7 @@ class Data {
 
 
   if(!empty($_GET['app_id'])){$app_id = $_GET['app_id'];
+    $data = new Data();
             if($app_id !=='2021posa1234'){
               header('Content-Type: application/json');        
               $data->status= "0";
@@ -33,6 +34,7 @@ class Data {
               die();
             }
   }else{
+    $data = new Data();
             header('Content-Type: application/json');        
             $data->status= "0";
             $data->note= "Un-authorised Access";
