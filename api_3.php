@@ -2812,6 +2812,12 @@ if (isset($_POST['sf_update_profile'])) {
 }
 
 
+$data = new Data();
+$data->status= "500";
+$data->note= "Account not registered";
+$result = json_encode($data);
+echo $result;
+die();
 
 
 
