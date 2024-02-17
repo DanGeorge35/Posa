@@ -1,0 +1,4 @@
+
+
+    $stmt = $db->query("SELECT * FROM posa_user");
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
