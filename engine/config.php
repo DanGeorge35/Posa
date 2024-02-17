@@ -9,7 +9,7 @@ date_default_timezone_set('Africa/Lagos');
 //----------------------------------------------------------------------------------------------------
 
 
-//---------------------------------------------------------------------------------- Here we get the current url 
+//---------------------------------------------------------------------------------- Here we get the current url
 define('URL', 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 //----------------------------------------------------------------------------------------------------
 
@@ -25,7 +25,6 @@ define('SUPER_ADMIN_EMAIL', 'admin@posaccountant.com');   // it@example.com
 define('MAIL_SEND_SERVER', 'posaccountant.com');
 define('MAIL_FROM', 'no-reply@posaccountant.com');
 //----------------------------------------------------------------------------------------------------
-echo $_SERVER["HTTP_HOST"];
 if($_SERVER["HTTP_HOST"] =="localhost"){
 
   //---------------------------------------------------------------------------------- Configuration for: Database
@@ -68,7 +67,7 @@ return $db;
 //------------------------------------------------------------------ GET USER IP ADDRESS  FUNCTION
 function getUserIP()
 {
-    
+
     if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
               $_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
               $_SERVER['HTTP_CLIENT_IP'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
@@ -163,5 +162,5 @@ function getUserIP()
 
 
 
-    
+
  ?>
