@@ -2812,12 +2812,6 @@ if (isset($_POST['sf_update_profile'])) {
 }
 
 
-$data = new Data();
-$data->status= "500";
-$data->note= "Account not registered";
-$result = json_encode($data);
-echo $result;
-die();
 
 
 
@@ -2827,11 +2821,7 @@ die();
           $data = new Data();
           $stmt = "";
           $user = "";
-            $data->status= "500";
-                    $data->note= "Account not registered";
-                    $result = json_encode($data);
-                    echo $result;
-                    die();
+   
 
           $dLOGIN_AGENT= cf::clean_input($dLOGIN_AGENT);
           if (strpos($dLOGIN_AGENT, '@') !== false) {

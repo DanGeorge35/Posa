@@ -53,12 +53,12 @@ if($_SERVER["HTTP_HOST"] =="localhost"){
 
 //------------------------------------------------------------------Function that instantiate database connection
 class config {
-public static function dbcon() {
-$db = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME.';charset='.DB_CHARSET, DB_USER, DB_PASS);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-$db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-return $db;
-}
+  public static function dbcon() {
+    $db = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME.';charset='.DB_CHARSET, DB_USER, DB_PASS);
+    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    return $db;
+  }
 }
 //-----------------------------------------------------------------------------------------------
 
@@ -98,7 +98,7 @@ function getUserIP()
 
 
 //------------------------------------------------------------- GET USER IP ADDRESS CALL FUNCTION
-  define('USER_IP', getUserIP());
+  // define('USER_IP', getUserIP());
 //----------------------------------------------------------------------------------------------
 
 
